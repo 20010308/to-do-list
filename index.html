@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List && Trello</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-3">
+            <button type="button" class="btn btn-success btn-block" onclick="showCard()">Add card</button>
+
+            <div class="card mt-4 d-none" id="card">
+                <div class="card-body ">
+                    <textarea  id="board-title" placeholder="Type here" class="form-control"></textarea>
+                    <button type="button" class="btn btn-success d-block ml-auto mt-3" onclick="addBoard()">Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-9">
+            <div id="result" class="row">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

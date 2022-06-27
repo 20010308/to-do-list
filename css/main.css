@@ -1,0 +1,45 @@
+.task{
+    box-shadow: 0 0 10px silver;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.task-close{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 12px;
+    background-color: #fff;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 13px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.card{
+    position: relative;
+}
+
+.task-close-card{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 17px;
+    background-color: #fff;
+    height: 17px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
